@@ -1,0 +1,127 @@
+/* Import Google font - Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+
+}
+body {
+    background-color: #181818;
+}
+
+/* Bottom part */
+
+.div-container {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+
+}
+
+.div-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+
+}
+
+.div-cell .cell-head {
+    padding: 0px 10px;
+    margin: 5px 50px;
+    font-size: 1.1rem;
+    color: #fff;
+}
+
+.div-cell .cell-content {
+    padding: 15px 10px;
+    margin: 5px 50px;
+    background-color: #404258;
+    font-size: 1rem;
+    width: 80%;
+    border-radius: 3px;
+    box-shadow: 0 1px 3px rgba(142, 142, 142, 0.381), 0 1px 0 rgba(137, 137, 137, 0.337);
+    color: #ffffff86;
+
+
+}
+
+.div-top {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 40px 50px;
+    padding: 0px 10px;
+}
+
+.div-top h3 {
+    color: #fff;
+    font-size: 1.3rem;
+}
+
+.div-top a {
+    background: #7d2ae8;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Top part */
+
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding-left: 20px;
+    color: #fff;
+}
+
+.card {
+    background-color: #181818;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.profile-info {
+    margin-bottom: 20px;
+}
+
+.name {
+    font-size: 24px;
+    margin: 0;
+}
+
+.username {
+    font-size: 18px;
+    margin: 0;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-between;
+}
+
+.stat {
+    flex-grow: 1;
+}
+
+.number {
+    font-size: 24px;
+    margin: 0;
+}
+
+.label {
+    font-size: 14px;
+    margin: 0;
+}
+.profile-pic{
+    padding: 15px 0px;
+}
+.profile-pic img{
+    width: 40%;
+    border-radius: 50%;
+}

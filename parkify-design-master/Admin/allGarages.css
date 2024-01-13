@@ -1,0 +1,75 @@
+/* Import Google font - Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+* {
+    /* margin: 0;
+    padding: 0; */
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+
+}
+
+body {
+    background-color: #181818;
+}
+.top-part{
+    text-align: center;
+    color: #fff;
+    padding: 20px 30px;
+}
+.garage-card-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    
+}
+.garage-card {
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2);
+    /* border: 5px #fff solid; */
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    border-radius: 5px;
+
+}
+.garage-card img {
+    border-radius:5px 5px 0px 0px;
+}
+.garage-card h2{
+    color: #fff;
+}
+.garage-card .content-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+.garage-card .title {
+    color: #fff;
+    font-size: 18px;
+    margin: 10px 20px;
+}
+.garage-card .data{
+    color: #dbdbdbc7;
+    font-size: 18px;
+    margin: 10px 20px;
+
+}
+button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #7d2ae8;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    transition: all 0.4s ease-out;
+    border-radius: 0px 0px 5px 5px;
+
+}
+
+button:hover {
+    opacity: 0.8;
+}

@@ -1,0 +1,108 @@
+/* Import Google font - Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+body {
+    background-color: #181818;
+}
+.search-part{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+
+}
+.search-part h1{
+    margin: 20px;
+}
+.top-part{
+    text-align: center;
+    color: #fff;
+    padding: 20px 30px;
+}
+.button {
+    background: #7d2ae8;
+    margin-top: 30px;
+    width: 25%;
+    padding: 10px 0;
+    border-radius: 10px;
+    color: #fff;
+    transition: all 0.4s ease-out;
+    cursor: pointer;
+    border: none;
+}
+button:hover {
+    opacity: 0.8;
+}
+.result-part{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.result-row{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 15px 10px;
+    margin: 12px 50px;
+    background-color: #404258;
+    border-radius: 3px;
+    box-shadow: 0 1px 3px rgba(142, 142, 142, 0.381), 0 1px 0 rgba(137, 137, 137, 0.337);
+}
+.result-row .result-cells{
+    padding-left: 15px;
+}
+.result-row .result-cells h4{
+    font-size: medium;
+    color: #fff;
+}
+.result-row .result-cells p{
+    font-size: medium;
+    color: #ffffff86;
+
+}
+
+Link {
+    width: 150px;
+}
+
+.result-row #book-btn-cell{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.result-row #book-btn-cell button{
+    background: #7d2ae8;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
+    border: none;
+    transition: all 0.4s ease-out;
+    cursor: pointer;
+
+}
+.result-row #book-btn-cell button:hover{
+    opacity: 0.8;
+
+}
